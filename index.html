@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+<!--odsud dal do clanku-->
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+<script src="./data.js"></script>
+
+<style>
+    #charts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cloud {
+        max-width: 300px;
+    }
+</style>
+
+<div id="charts"></div>
+
+<script>
+function drawChart(vl) {
+    Highcharts.chart(vl, {
+        chart: {
+            width: 300,
+        },
+        colors: ['red', 'gray'],
+        series: [{
+            type: 'wordcloud',
+            data: vlady[vl].slice(0,15),
+            name: 'výskyt klokana'
+        }],
+        title: {
+            text: vl
+        }
+    });
+};
+Object.keys(vlady).forEach(function(vl) {
+    document.getElementById('charts').innerHTML += '<div class="cloud" id="' + vl + '"></div>'
+});
+Object.keys(vlady).forEach(function(vl) {
+    drawChart(vl)
+});
+</script>
