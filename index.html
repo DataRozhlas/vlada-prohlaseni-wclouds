@@ -24,6 +24,9 @@
     .highcharts-tooltip text {
         font-size: 15px !important;
     }
+    .highcharts-title {
+        text-decoration: underline !important;
+    }
 </style>
 
 <div id="charts"></div>
@@ -51,10 +54,7 @@ function drawChart(vl) {
             name: 'výskyt klokana'
         }],
         title: {
-            text: vl
-        },
-        subtitle: {
-            text: 'opičí prdel'
+            text: '<a href="javascript:window.open(\'\https://irozhlas.cz\'\, \'\_blank\'\);">' + vl + '</b>'
         }
     });
 };
