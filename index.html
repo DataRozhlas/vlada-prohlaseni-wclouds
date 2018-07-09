@@ -14,7 +14,15 @@
         flex-wrap: wrap;
     }
     .cloud {
-        max-width: 300px;
+        max-width: 320px;
+        transform: scale(0.8);
+    }
+    .highcharts-title {
+        fill:black;
+        font-size: 25px !important;
+    }
+    .highcharts-tooltip text {
+        font-size: 15px !important;
     }
 </style>
 
@@ -24,16 +32,29 @@
 function drawChart(vl) {
     Highcharts.chart(vl, {
         chart: {
-            width: 300,
+            width: 400,
         },
-        colors: ['red', 'gray'],
-        series: [{
+        credits: {
+            enabled: false
+        },
+        colors: ['#6baed6'],
+        series: [
+            {
+                rotation: {
+                    from: 0,
+                    to: 0
+            },
+            maxFontSize: 15,
+            minFontSize: 1,
             type: 'wordcloud',
             data: vlady[vl].slice(0,15),
             name: 'výskyt klokana'
         }],
         title: {
             text: vl
+        },
+        subtitle: {
+            text: 'opičí prdel'
         }
     });
 };

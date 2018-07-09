@@ -3170,6 +3170,9 @@ var vlady = {
         'weight': 3
     }],
     '2018 Babiš': [{
+        'name': 'zemědělská politika',
+        'weight': 9
+    },{
         'name': 'správa daní',
         'weight': 6
     }, {
@@ -3185,14 +3188,11 @@ var vlady = {
         'name': 'spravedlivá podmínka',
         'weight': 3
     }, {
-        'name': 'zemědělská politika',
-        'weight': 9
+        'name': 'armáda ČR',
+        'weight': 8
     }, {
         'name': 'vysokorychlostní internet',
         'weight': 5
-    }, {
-        'name': 'armáda ČR',
-        'weight': 8
     }, {
         'name': 'rozvoj služeb',
         'weight': 3
@@ -3254,4 +3254,11 @@ var vlady = {
         'name': 'veliký zapojení',
         'weight': 3
     }]
+};
+
+var meta = {
+    '1919 Tusar': {
+        'url': 'LINK-NA-TEXT-PROHLASENI',
+        'obd': '1. republika'
+    }
 };
