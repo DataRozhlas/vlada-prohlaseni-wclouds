@@ -3299,75 +3299,75 @@ var meta = {
     },   
     '1948 Gottwald': {
        'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1945-1960-csr/klement-gottwald-2/ppv-1948-gottwald2.pdf', 
-       'obd': 'Komunustické Československo'
+       'obd': 'Komunistické Československo'
     },
     '1948 Zápotocký': {
         'url': 'http://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1945-1960-csr/antonin-zapotocky/ppv-1948-1953-zapotocky.pdf', 
-        'obd': 'Komunustické Československo'     
+        'obd': 'Komunistické Československo'     
     },
     '1953 Široký': {
         'url': 'http://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1945-1960-csr/antonin-zapotocky/ppv-1953-1954-siroky1.pdf', 
-        'obd': 'Komunustické Československo' 
+        'obd': 'Komunistické Československo' 
     },
     '1954 Široký': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1945-1960-csr/viliam-siroky/ppv-1954-1960-siroky.pdf', 
-        'obd': 'Komunustické Československo' 
+        'obd': 'Komunistické Československo' 
     },
     '1960 Široký': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/viliam-siroky/ppv-1960-1963-siroky.pdf', 
-        'obd': 'Komunustické Československo' 
+        'obd': 'Komunistické Československo' 
     },
     '1963 Lenárt': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/jozef-lenart/ppv-1963-1968-lenart.pdf', 
-        'obd': 'Komunustické Československo' 
+        'obd': 'Komunistické Československo' 
     },
     '1968 Černík': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/oldrich-cernik-1/ppv-1968-cernik1.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1969 Černík I.': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/oldrich-cernik-2/ppv-1969-cernik2.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1969 Černík II.': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/oldrich-cernik-3/ppv-1969-1971-cernik3.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1971 Štrougal': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1918-1938-csr/jan-cerny-1/ppv-1920-1921-cerny.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1976 Štrougal': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/lubomir-strougal-2/ppv-1971-1976-strougal2.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1981 Štrougal': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/lubomir-strougal-3/ppv-1976-1981-strougal3.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1986 Štrougal': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/lubomir-strougal-5/ppv-1986-1988-strougal5.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1988 Štrougal': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1960-1990-cssr/lubomir-strougal-6/ppv-1988-strougal6.pdf', 
-        'obd': 'Komunustické Československo'
+        'obd': 'Komunistické Československo'
     },
     '1989 Čalfa': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1990-1992-csfr/marian-calfa-1/ppv-1989-1990-calfa1.pdf', 
-        'obd': 'Československá federativní republika'
+        'obd': 'Česká a Slovenská federativní republika'
     },
     '1990 Čalfa': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1990-1992-csfr/marian-calfa-2/ppv-1990-1992-calfa2.pdf', 
-        'obd': 'Československá federativní republika'
+        'obd': 'Česká a Slovenská federativní republika'
     },
     '1992 Klaus': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1993-2010-cr/vaclav-klaus-1/Programove-prohlaseni-vlady_1.pdf', 
-        'obd': 'Československá federativní republika'
+        'obd': 'Česká a Slovenská federativní republika'
     },
     '1992 Stráský': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1990-1992-csfr/jan-strasky/ppv-1992-strasky.pdf', 
-        'obd': 'Československá federativní republika'
+        'obd': 'Česká a Slovenská federativní republika'
     },
     '1996 Klaus': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1993-2010-cr/vaclav-klaus-2/Programove-prohlaseni-vlady_1.pdf', 

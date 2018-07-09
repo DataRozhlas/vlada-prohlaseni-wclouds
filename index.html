@@ -12,17 +12,22 @@
     #charts {
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
     }
     .cloud {
-        max-width: 320px;
+        max-width: 400px;
         transform: scale(0.8);
+        margin-top: -50px;
     }
     .highcharts-title {
         fill:black;
         font-size: 25px !important;
     }
     .highcharts-tooltip text {
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
     .highcharts-title {
         text-decoration: underline !important;
@@ -32,6 +37,15 @@
 <div id="charts"></div>
 
 <script>
+
+var timeCols = {
+    'První republika': '#878787',
+    'Druhá republika': '#d95f02',
+    'Poválečné Československo': '#006837',
+    'Komunistické Československo': '#e41a1c',
+    'Česká a Slovenská federativní republika': '#984ea3',
+    'Česká republika': '#377eb8'
+};
 function drawChart(vl) {
     Highcharts.chart(vl, {
         chart: {
@@ -40,7 +54,7 @@ function drawChart(vl) {
         credits: {
             enabled: false
         },
-        colors: ['#6baed6'],
+        colors: [timeCols[meta[vl]['obd']]],
         series: [
             {
                 rotation: {
@@ -51,11 +65,12 @@ function drawChart(vl) {
             minFontSize: 1,
             type: 'wordcloud',
             data: vlady[vl].slice(0,15),
-            name: 'výskyt klokana'
+            name: 'výskyt sousloví'
         }],
         title: {
-            text: '<a href="javascript:window.open(\'\https://irozhlas.cz\'\, \'\_blank\'\);">' + vl + '</b>'
-        }
+            text: '<a href="javascript:window.open(\'' + meta[vl]['url'] + '\', \'\_blank\'\);">' + vl + '</b>'
+        },
+        //subtitle: { text: meta[vl]['obd']}
     });
 };
 Object.keys(vlady).forEach(function(vl) {
