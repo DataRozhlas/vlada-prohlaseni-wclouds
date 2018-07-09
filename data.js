@@ -1254,14 +1254,11 @@ var vlady = {
         'weight': 8
     }],
     '1969 Černík II.': [{
-        'name': 'Československá socialistická republika',
-        'weight': 18
-    }, {
         'name': 'socialistická zem',
         'weight': 18
     }, {
         'name': 'socialistická republika',
-        'weight': 21
+        'weight': 39
     }, {
         'name': 'komunistická strana československa',
         'weight': 18

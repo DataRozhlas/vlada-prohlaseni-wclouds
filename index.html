@@ -29,6 +29,9 @@
     .highcharts-tooltip text {
         font-size: 16px !important;
     }
+    .highcharts-tooltip tspan {
+        font-size: 16px !important;
+    }
     .highcharts-title {
         text-decoration: underline !important;
     }
@@ -54,6 +57,11 @@ function drawChart(vl) {
         credits: {
             enabled: false
         },
+        tooltip: {
+            style: {
+                fontSize: '16px'
+            }
+        },
         colors: [timeCols[meta[vl]['obd']]],
         series: [
             {
@@ -65,12 +73,23 @@ function drawChart(vl) {
             minFontSize: 1,
             type: 'wordcloud',
             data: vlady[vl].slice(0,15),
-            name: 'výskyt sousloví'
         }],
+        tooltip: {
+            formatter: function () {
+                return '<span style="text-align: center;">Sousloví <b>' + this.point.name +
+                    '</b><br> se objevilo <br><b>' + this.point.weight + 'krát</b></span>';
+            }
+        },
         title: {
             text: '<a href="javascript:window.open(\'' + meta[vl]['url'] + '\', \'\_blank\'\);">' + vl + '</b>'
         },
-        //subtitle: { text: meta[vl]['obd']}
+        subtitle: { 
+            text: meta[vl]['obd'] ,
+            style: {
+                color: 'red',
+                fontSize: '15px'
+            }
+        }
     });
 };
 Object.keys(vlady).forEach(function(vl) {
