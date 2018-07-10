@@ -1261,10 +1261,7 @@ var vlady = {
         'weight': 39
     }, {
         'name': 'komunistická strana československa',
-        'weight': 18
-    }, {
-        'name': 'strana československa',
-        'weight': 18
+        'weight': 32
     }, {
         'name': 'socialistický stát',
         'weight': 14
@@ -1435,11 +1432,8 @@ var vlady = {
         'name': 'rozvoj národního hospodářství',
         'weight': 3
     }, {
-        'name': 'úroveň řídící práce',
-        'weight': 3
-    }, {
         'name': 'řídící práce',
-        'weight': 3
+        'weight': 6
     }, {
         'name': 'socialistický princip',
         'weight': 3
@@ -1490,23 +1484,17 @@ var vlady = {
         'name': 'sjezd komunistické strany',
         'weight': 9
     }, {
-        'name': 'socialistická společnost',
-        'weight': 8
-    }, {
         'name': 'národní hospodářství',
         'weight': 14
     }, {
         'name': 'rozvinutá socialistická společnost',
-        'weight': 6
+        'weight': 16
     }, {
         'name': 'Československá socialistická republika',
         'weight': 7
     }, {
         'name': 'komunistická strana československa',
-        'weight': 7
-    }, {
-        'name': 'strana československa',
-        'weight': 7
+        'weight': 14
     }, {
         'name': 'socialistické společenství',
         'weight': 4
@@ -2048,7 +2036,7 @@ var vlady = {
     }],
     '1990 Čalfa': [{
         'name': 'životné prostredie',
-        'weight': 6
+        'weight': 9
     }, {
         'name': 'Federálne zhromaždenia',
         'weight': 5
@@ -2080,9 +2068,6 @@ var vlady = {
         'name': 'zahraničný obchod',
         'weight': 3
     }, {
-        'name': 'ochrana životného prostredia',
-        'weight': 3
-    }, {
         'name': 'súkromné podnikanie',
         'weight': 3
     }, {
@@ -2109,7 +2094,7 @@ var vlady = {
         'weight': 7
     }, {
         'name': 'úkol vlády',
-        'weight': 7
+        'weight': 10
     }, {
         'name': 'ekonomická transformace',
         'weight': 9
@@ -2124,9 +2109,6 @@ var vlady = {
         'weight': 5
     }, {
         'name': 'ministerstvo státní kontroly',
-        'weight': 3
-    }, {
-        'name': 'prvořadý úkol vlády',
         'weight': 3
     }, {
         'name': 'tržní hospodářství',
@@ -2197,10 +2179,7 @@ var vlady = {
         'weight': 13
     }, {
         'name': 'ústřední orgán státní správy',
-        'weight': 7
-    }, {
-        'name': 'ústřední orgán',
-        'weight': 8
+        'weight': 15
     }, {
         'name': 'státoprávní uspořádání',
         'weight': 5
@@ -2208,20 +2187,11 @@ var vlady = {
         'name': 'činnost federálního ministerstva',
         'weight': 4
     }, {
-        'name': 'orgán státní správy',
-        'weight': 9
-    }, {
         'name': 'republikové ministerstvo',
         'weight': 3
     }, {
-        'name': 'příslušný místopředseda',
-        'weight': 3
-    }, {
         'name': 'příslušný místopředseda vlády',
-        'weight': 3
-    }, {
-        'name': 'pravomoc příslušného místopředsedy',
-        'weight': 3
+        'weight': 6
     }, {
         'name': 'republikový zákon',
         'weight': 3
@@ -2282,20 +2252,14 @@ var vlady = {
         'weight': 3
     }],
     '1998 Zeman': [{
-        'name': 'daňová soustava',
-        'weight': 7
-    }, {
         'name': 'reforma daňové soustavy',
-        'weight': 4
+        'weight': 11
     }, {
         'name': 'přirozený monopol',
         'weight': 4
     }, {
         'name': 'vytváření podmínek',
         'weight': 4
-    }, {
-        'name': 'politika podpory konkurenceschopnosti',
-        'weight': 3
     }, {
         'name': 'neziskový princip',
         'weight': 3
@@ -2319,7 +2283,7 @@ var vlady = {
         'weight': 3
     }, {
         'name': 'podpora konkurenceschopnosti',
-        'weight': 3
+        'weight': 6
     }, {
         'name': 'podpora výstavby',
         'weight': 4
