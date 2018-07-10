@@ -60,6 +60,10 @@ function drawChart(vl) {
         tooltip: {
             style: {
                 fontSize: '16px'
+            },
+            formatter: function () {
+                return '<span style="text-align: center;">Sousloví <b>' + this.point.name +
+                    '</b><br> se objevilo <b>' + this.point.weight + 'krát</b></span>';
             }
         },
         colors: [timeCols[meta[vl]['obd']]],
@@ -74,19 +78,13 @@ function drawChart(vl) {
             type: 'wordcloud',
             data: vlady[vl].slice(0,15),
         }],
-        tooltip: {
-            formatter: function () {
-                return '<span style="text-align: center;">Sousloví <b>' + this.point.name +
-                    '</b><br> se objevilo <br><b>' + this.point.weight + 'krát</b></span>';
-            }
-        },
         title: {
             text: '<a href="javascript:window.open(\'' + meta[vl]['url'] + '\', \'\_blank\'\);">' + vl + '</b>'
         },
         subtitle: { 
             text: meta[vl]['obd'] ,
             style: {
-                color: 'red',
+                color: timeCols[meta[vl]['obd']],
                 fontSize: '15px'
             }
         }
